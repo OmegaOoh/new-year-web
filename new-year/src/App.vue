@@ -60,12 +60,14 @@ const quotes = [
   { "title": "It's a new dawn. It's a new day. It's a new life, for me. And I'm feeling good.", "detail": "Nina Simone" },
   { "title": "The secret of change is to focus all of your energy, not on fighting the old, but on building the new.", "detail": "Socrates" },
   { "title": "The best way to predict the future is to create it.", "detail": "Abraham Lincoln" },
+  { "title": "My New Year's resolution is to stop procrastinating, but I'll start that tomorrow.", "detail": "Perplexity.ai" },
   { "title": "With the new day comes new strength and new thoughts.", "detail": "Eleanor Roosevelt" },
   { "title": "This is a new year. A new beginning. And things will change.", "detail": "Taylor Swift" },
   { "title": "Every single year, we're a different person. I don't think we're the same person all of our lives.", "detail": "Steven Spielberg" },
   { "title": "You are never too old to set another goal or to dream a new dream.", "detail": "C.S. Lewis" },
   { "title": "Your life does not get better by chance, it gets better by change.", "detail": "Jim Rohn" },
   { "title": "The journey of a thousand miles begins with one step.", "detail": "Lao Tzu" },
+  { "title": "Cheers to a new year and another chance to get it right... or at least try not to mess it up too badly!", "detail": "Perplexity.ai" },
   { "title": "Every moment is a fresh beginning.", "detail": "T.S. Eliot" },
   { "title": "I can't believe it's been a year since I didn't become a better person.", "detail": "Perplexity.ai" },
   { "title": "May the New Year bring you all the success, happiness, and love you deserve.", "detail": "Someone" },
@@ -75,8 +77,6 @@ const quotes = [
   { "title": "'Life is change. Growth is optional. Choose wisely.'", "detail": "Karen Kaiser Clark" },
   { "title": "'Each year's regrets are envelopes in which messages of hope are found for the new year.'", "detail": "John R. Dallas Jr." },
   { "title": "'And suddenly you know: It's time to start something new and trust the magic of beginnings.'", "detail": "Meister Eckhart" },
-  { "title": "My New Year's resolution is to stop procrastinating, but I'll start that tomorrow.", "detail": "Perplexity.ai" },
-  { "title": "Cheers to a new year and another chance to get it right... or at least try not to mess it up too badly!", "detail": "Perplexity.ai" },
   { "title": "May all your troubles last as long as your New Year's resolutions.", "detail": "Perplexity.ai" },
   { "title": "This year, I will be more organized. Just not today.", "detail": "Someone" }
 ]
@@ -88,6 +88,10 @@ const urls = [
   "https://youtu.be/Jd4Hd-HFgls?si=tteB4UU82YquGBz8",
   "https://www.youtube.com/shorts/1izGh371eLU?feature=share",
   "https://i.pinimg.com/736x/a8/75/03/a875036d44def0b055a0bfb6782658ae.jpg",
+  "https://www.youtube.com/watch?v=F-Azl8KXa-0",
+  "https://www.youtube.com/watch?v=P4XVvma2Iyc",
+  "https://images-cdn.9gag.com/photo/axjZx1Y_700b.jpg",
+  ""
   // To be added
 ]
 
