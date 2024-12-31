@@ -60,7 +60,7 @@ const quotes = [
   { "title": "It's a new dawn. It's a new day. It's a new life, for me. And I'm feeling good.", "detail": "Nina Simone" },
   { "title": "The secret of change is to focus all of your energy, not on fighting the old, but on building the new.", "detail": "Socrates" },
   { "title": "The best way to predict the future is to create it.", "detail": "Abraham Lincoln" },
-  { "title": "My New Year's resolution is to stop procrastinating, but I'll start that tomorrow.", "detail": "Perplexity.ai" },
+  { "title": "My New Year's resolution is to stop procrastinating, but I'll start that tomorrow.", "detail": "Perplexity.ai " },
   { "title": "With the new day comes new strength and new thoughts.", "detail": "Eleanor Roosevelt" },
   { "title": "This is a new year. A new beginning. And things will change.", "detail": "Taylor Swift" },
   { "title": "Every single year, we're a different person. I don't think we're the same person all of our lives.", "detail": "Steven Spielberg" },
@@ -77,7 +77,7 @@ const quotes = [
   { "title": "'Life is change. Growth is optional. Choose wisely.'", "detail": "Karen Kaiser Clark" },
   { "title": "'Each year's regrets are envelopes in which messages of hope are found for the new year.'", "detail": "John R. Dallas Jr." },
   { "title": "'And suddenly you know: It's time to start something new and trust the magic of beginnings.'", "detail": "Meister Eckhart" },
-  { "title": "May all your troubles last as long as your New Year's resolutions.", "detail": "Perplexity.ai" },
+  { "title": "May all your troubles last as long as your New Year's resolutions.", "detail": "Perplexity.ai " },
   { "title": "This year, I will be more organized. Just not today.", "detail": "Someone" }
 ]
 
@@ -91,7 +91,6 @@ const urls = [
   "https://www.youtube.com/watch?v=F-Azl8KXa-0",
   "https://www.youtube.com/watch?v=P4XVvma2Iyc",
   "https://images-cdn.9gag.com/photo/axjZx1Y_700b.jpg",
-  ""
   // To be added
 ]
 
@@ -120,7 +119,7 @@ function showModal() {
   }
   const modal = document.getElementById('my_modal');
   randomQuote.value = quotes[Math.floor(Math.random() * quotes.length)];
-  if (randomQuote.value.detail === "Perplexity.ai") {
+  if (randomQuote.value.detail === "Perplexity.ai ") {
     const url = urls[Math.floor(Math.random() * urls.length)];
     window.open(url, '_blank').focus();
 
