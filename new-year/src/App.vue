@@ -83,7 +83,6 @@ const quotes = [
 
 
 const urls = [
-  "https://youtu.be/dQw4w9WgXcQ",
   "https://youtu.be/4xnsmyI5KMQ?si=G5NT3FxSXBLO_PJe",
   "https://www.youtube.com/watch?v=7asJSW7yp7E",
   "https://youtu.be/Jd4Hd-HFgls?si=tteB4UU82YquGBz8",
