@@ -91,7 +91,6 @@ const urls = [
   "https://www.youtube.com/watch?v=F-Azl8KXa-0",
   "https://www.youtube.com/watch?v=P4XVvma2Iyc",
   "https://images-cdn.9gag.com/photo/axjZx1Y_700b.jpg",
-  "https://cdn.discordapp.com/attachments/597062395311030273/1323640505870848103/IMG_5129.jpg?ex=67753fc8&is=6773ee48&hm=bed10e6e9684166fe6e6d2063f3c28d0f805d743a1e027c92236effc2506a7ce&",
   
   // To be added
 ]
