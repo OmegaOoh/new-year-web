@@ -78,7 +78,12 @@ const quotes = [
   { "title": "'Each year's regrets are envelopes in which messages of hope are found for the new year.'", "detail": "John R. Dallas Jr." },
   { "title": "'And suddenly you know: It's time to start something new and trust the magic of beginnings.'", "detail": "Meister Eckhart" },
   { "title": "May all your troubles last as long as your New Year's resolutions.", "detail": "Perplexity.ai " },
-  { "title": "This year, I will be more organized. Just not today.", "detail": "Someone" }
+  { "title": "This year, I will be more organized. Just not today.", "detail": "Someone" },
+  { "title": "อย่าดึงฟ้าต่ำ อย่าทำหินแตก อย่ากระแทกซิงเกิลมัม", "detail": "ทนายธาตรี Winrate 100%"},
+  { "title": "Nothing beat the jet2holiday", "detail": "Yo mama" },
+  { "title": "Six sevennnnnn", "detail": "yes"},
+  { "title": "พี่จ๋า น้ำจะแตก ไม่ไหวแล้ว อู้ยยยยยยย", "detail": "นักล่ามนุษย์ดัดแปลง"},
+  { "title": "Top 10 Cute and funny", "detail": "Jang" }
 ]
 
 
