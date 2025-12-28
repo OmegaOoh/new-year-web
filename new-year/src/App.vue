@@ -8,12 +8,21 @@
   <!-- Consent Modal for External Links -->
   <dialog id="consent_modal" class="modal">
     <div class="modal-box size-fit max-w-md">
-      <h3 class="text-lg font-bold">Notice: External Links</h3>
-      <p class="py-4">
-        This application may open new tabs to external websites that are not
-        associated with our application. Please continue with your own caution.
-      </p>
-      <div class="modal-action">
+      <h3 class="text-lg font-bold mb-4">⚠️ Notice</h3>
+      <div class="space-y-4 text-sm">
+        <p>
+          This application may display content from external websites that are
+          <strong>not associated with our application</strong>.
+        </p>
+        <p>
+          Please proceed with your own caution when interacting with any content
+          that appears.
+        </p>
+        <p class="text-xs text-neutral-500 italic">
+          This notice will only appear once.
+        </p>
+      </div>
+      <div class="modal-action mt-6">
         <form method="dialog">
           <button class="btn btn-primary" @click="acceptConsent">
             I Understand, Continue
@@ -266,7 +275,9 @@ function showModal() {
   ++increment;
   console.log(increment);
   if (increment % 69 == 0 && increment != 0) {
-    surpriseUrl.value=getEmbedUrl("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+    surpriseUrl.value = getEmbedUrl(
+      "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    );
   }
   const modal = document.getElementById("my_modal");
   randomQuote.value = quotes[Math.floor(Math.random() * quotes.length)];
